@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'build a'",
+    "build:css": "sleep 1 && echo 'build a css'",
+    "build:js": "sleep 1 && echo 'build a js'",
+    "build:html": "sleep 1 && echo 'build a html'",
+    "build": "pd run 'build:*'",
     "prebuild": "echo 'prebuild a'"
   },
   "keywords": [],
