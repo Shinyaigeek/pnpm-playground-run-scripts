@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "echo 'build b css'",
-    "build:js": "echo 'build b js'",
-    "build:html": "echo 'build b html'",
+    "build:css": "sleep 1 && echo 'build b css'",
+    "build:js": "sleep 1 && echo 'build b js'",
+    "build:html": "sleep 1 && echo 'build b html'",
     "build": "pd run 'build:*'",
     "prebuild": "echo 'prebuild b'"
   },
